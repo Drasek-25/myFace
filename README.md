@@ -1,0 +1,1 @@
+This was my first lab project from Redwood Code Academy, this was just an introduction to html and basic css.

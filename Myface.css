@@ -1,0 +1,76 @@
+body {
+  background-color: #008B8B;
+}
+h1  {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 50px;
+  text-align:center;
+  font-weight: lighter;
+  color: white;
+  text-shadow: -2px 2px Black;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+h3  {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+  font-weight: lighter;
+}
+p  {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding: 5px 30px;
+}
+ul  {
+  padding-bottom: 20px;
+}
+input {
+  width: 85%;
+  margin: 5px 0px;
+  height: 25px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+.inputFieldTitle  {
+  font-family: arial, helvetica, sans-serif;
+  font-size: 16px;
+}
+.contentDivContainer  {
+  margin: auto;
+  display: table;
+  width: 90%;
+  overflow: auto;
+  padding: 5px;
+}
+.contentDiv {
+  display: table-cell;
+  width: 49%;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+#left {
+  float: left;
+  background-color: #f0ffff;
+  padding-bottom: 20px;
+}
+#right {
+  float: right;
+  background-color: #F5F5F5;
+}
+@media only screen and (max-width: 900px) {
+  #left {
+    //Stack bottom
+    display: block;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #right {
+    //stack top
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
